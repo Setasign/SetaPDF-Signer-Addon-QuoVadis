@@ -1,0 +1,27 @@
+{
+    "name": "setasign/setapdf-signer-addon-quovadis",
+    "description": "A SetaPDF-Signer component signature module for the QuoVadis Signing and Validation Service.",
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/Setasign/SetaPDF-Signer-Addon-QuoVadis",
+    "authors": [
+        {
+            "name": "Jan Slabon",
+            "email": "jan.slabon@setasign.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://www.setasign.com/downloads/"
+        }
+    ],
+    "require": {
+        "setasign/setapdf-signer": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SetaPDF_Signer_QuoVadis_": "src/"
+        }
+    }
+}

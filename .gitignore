@@ -1,0 +1,4 @@
+/vendor
+/composer.lock
+/examples/credentials.php
+/examples/_tmp/.ht*
